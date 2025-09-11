@@ -20,7 +20,7 @@ export default function InteractiveRobot({ robot }: InteractiveRobotProps) {
       <div className="relative w-full max-w-2xl mx-auto aspect-[2/3] md:aspect-video">
         <Image
           src={robot.image.imageUrl}
-          alt={`Interactive view of ${robot.name}`}
+          alt={`Vista interactiva de ${robot.name}`}
           fill
           priority
           className="object-contain rounded-lg shadow-2xl"
@@ -34,7 +34,7 @@ export default function InteractiveRobot({ robot }: InteractiveRobotProps) {
                 onClick={() => setSelectedPart(part)}
                 className="absolute -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-primary/80 backdrop-blur-sm text-primary-foreground flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 hover:bg-primary"
                 style={{ top: part.position.top, left: part.position.left }}
-                aria-label={`Details for ${part.name}`}
+                aria-label={`Detalles de ${part.name}`}
               >
                 <div className="absolute inset-0 rounded-full bg-primary animate-ping opacity-60"></div>
                 <Plus className="w-5 h-5" />

@@ -12,12 +12,12 @@ export default function Home() {
           <span className="text-primary electric-glow">RoboLearn</span>
         </h1>
         <p className="max-w-2xl mx-auto mt-4 text-lg text-muted-foreground">
-          An interactive journey into the fascinating world of robotics. Explore different types of robots and discover the components that bring them to life.
+          Un viaje interactivo al fascinante mundo de la robótica. Explora diferentes tipos de robots y descubre los componentes que les dan vida.
         </p>
       </section>
 
       <section>
-        <h2 className="text-3xl font-bold tracking-tight mb-8">Robot Gallery</h2>
+        <h2 className="text-3xl font-bold tracking-tight mb-8">Galería de Robots</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {robots.map((robot) => (
             <Link key={robot.id} href={`/robots/${robot.slug}`} passHref>
@@ -37,7 +37,7 @@ export default function Home() {
                 <CardContent className="flex-grow flex flex-col justify-between">
                   <p className="text-muted-foreground mb-4">{robot.description}</p>
                    <div className="flex items-center justify-end text-sm font-semibold text-primary">
-                    Explore
+                    Explorar
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                   </div>
                 </CardContent>

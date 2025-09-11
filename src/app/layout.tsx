@@ -4,8 +4,8 @@ import { Header } from '@/components/common/Header';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'RoboLearn | Explore the World of Robotics',
-  description: 'An educational website about robotics, with a gallery of robots and an interactive explorer for their parts.',
+  title: 'RoboLearn | Explora el Mundo de la Robótica',
+  description: 'Un sitio web educativo sobre robótica, con una galería de robots y un explorador interactivo de sus partes.',
 };
 
 export default function RootLayout({
@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="es" className="dark">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

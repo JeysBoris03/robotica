@@ -1,23 +1,23 @@
 'use server';
 /**
- * @fileOverview Summarizes the function of a robot part using AI.
+ * @fileOverview Resume la función de una pieza de robot usando IA.
  *
- * - summarizeRobotPart - A function that summarizes the function of a robot part.
- * - SummarizeRobotPartInput - The input type for the summarizeRobotPart function.
- * - SummarizeRobotPartOutput - The return type for the summarizeRobotPart function.
+ * - summarizeRobotPart - Una función que resume la función de una pieza de robot.
+ * - SummarizeRobotPartInput - El tipo de entrada para la función summarizeRobotPart.
+ * - SummarizeRobotPartOutput - El tipo de retorno para la función summarizeRobotPart.
  */
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';
 
 const SummarizeRobotPartInputSchema = z.object({
-  partName: z.string().describe('The name of the robot part.'),
-  partDescription: z.string().describe('The description of the robot part.'),
+  partName: z.string().describe('El nombre de la pieza del robot.'),
+  partDescription: z.string().describe('La descripción de la pieza del robot.'),
 });
 export type SummarizeRobotPartInput = z.infer<typeof SummarizeRobotPartInputSchema>;
 
 const SummarizeRobotPartOutputSchema = z.object({
-  summary: z.string().describe('A summarized description of the robot part function.'),
+  summary: z.string().describe('Una descripción resumida de la función de la pieza del robot.'),
 });
 export type SummarizeRobotPartOutput = z.infer<typeof SummarizeRobotPartOutputSchema>;
 
@@ -29,7 +29,7 @@ const prompt = ai.definePrompt({
   name: 'summarizeRobotPartPrompt',
   input: {schema: SummarizeRobotPartInputSchema},
   output: {schema: SummarizeRobotPartOutputSchema},
-  prompt: `Summarize the function of the following robot part in a concise manner:\n\nPart Name: {{{partName}}}\nPart Description: {{{partDescription}}}`,
+  prompt: `Resume la función de la siguiente pieza de robot de manera concisa:\n\nNombre de la Pieza: {{{partName}}}\nDescripción de la Pieza: {{{partDescription}}}`,
 });
 
 const summarizeRobotPartFlow = ai.defineFlow(

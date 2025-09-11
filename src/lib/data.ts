@@ -14,98 +14,98 @@ export const robots: Robot[] = [
     id: '1',
     slug: 'atlas-v',
     name: 'Atlas V',
-    description: 'An advanced humanoid robot designed for a variety of search and rescue tasks. It exhibits remarkable balance and mobility.',
+    description: 'Un robot humanoide avanzado diseñado para una variedad de tareas de búsqueda y rescate. Exhibe un equilibrio y movilidad notables.',
     image: getImage('humanoid-robot'),
     parts: [
       {
         id: 'p1',
-        name: 'Head Unit',
-        description: 'The head unit contains the primary sensor suite, including stereo cameras, LiDAR, and a neural processing unit for real-time environment mapping and object recognition.',
+        name: 'Unidad de Cabeza',
+        description: 'La unidad de cabeza contiene el conjunto de sensores primarios, incluidas cámaras estéreo, LiDAR y una unidad de procesamiento neuronal para el mapeo del entorno en tiempo real y el reconocimiento de objetos.',
         image: getImage('robot-head'),
         position: { top: '12%', left: '50%' },
-        learnMoreUrl: 'https://en.wikipedia.org/wiki/Computer_vision'
+        learnMoreUrl: 'https://es.wikipedia.org/wiki/Visi%C3%B3n_artificial'
       },
       {
         id: 'p2',
-        name: 'Articulated Arm',
-        description: 'A highly flexible arm with 7 degrees of freedom, capable of complex manipulation tasks. It is equipped with force-torque sensors in each joint for precise control.',
+        name: 'Brazo Articulado',
+        description: 'Un brazo altamente flexible con 7 grados de libertad, capaz de realizar tareas complejas de manipulación. Está equipado con sensores de fuerza-par en cada articulación para un control preciso.',
         image: getImage('robot-arm-part'),
         position: { top: '35%', left: '25%' },
-        learnMoreUrl: 'https://en.wikipedia.org/wiki/Robotic_arm'
+        learnMoreUrl: 'https://es.wikipedia.org/wiki/Brazo_rob%C3%B3tico'
       },
       {
         id: 'p3',
-        name: 'Torso Core',
-        description: 'The torso houses the primary power distribution system, hydraulic fluid reservoir, and the main CPU cluster for high-level decision making.',
+        name: 'Núcleo del Torso',
+        description: 'El torso alberga el sistema principal de distribución de energía, el depósito de fluido hidráulico y el clúster principal de CPU para la toma de decisiones de alto nivel.',
         image: getImage('robot-torso'),
         position: { top: '40%', left: '50%' },
-        learnMoreUrl: 'https://en.wikipedia.org/wiki/Central_processing_unit'
+        learnMoreUrl: 'https://es.wikipedia.org/wiki/Unidad_central_de_procesamiento'
       },
       {
         id: 'p4',
-        name: 'Bipedal Leg',
-        description: 'A powerful hydraulic leg that allows the robot to walk, run, and traverse uneven terrain. Its design is inspired by human biomechanics for efficient locomotion.',
+        name: 'Pierna Bípeda',
+        description: 'Una potente pierna hidráulica que permite al robot caminar, correr y atravesar terrenos irregulares. Su diseño está inspirado en la biomecánica humana para una locomoción eficiente.',
         image: getImage('robot-leg-part'),
         position: { top: '75%', left: '60%' },
-        learnMoreUrl: 'https://en.wikipedia.org/wiki/Legged_robot'
+        learnMoreUrl: 'https://es.wikipedia.org/wiki/Robot_caminante'
       }
     ]
   },
   {
     id: '2',
     slug: 'kr-10',
-    name: 'KR 10 Industrial Arm',
-    description: 'A versatile and precise 6-axis industrial robot, ideal for manufacturing, assembly, and pick-and-place operations.',
+    name: 'Brazo Industrial KR 10',
+    description: 'Un robot industrial de 6 ejes, versátil y preciso, ideal para operaciones de fabricación, ensamblaje y pick-and-place.',
     image: getImage('robotic-arm'),
     parts: [
         {
             id: 'p5',
-            name: 'Robot Base',
-            description: 'The foundation of the robot, which is mounted to the floor or a linear track. It houses the main controller and provides stability for the entire structure.',
+            name: 'Base del Robot',
+            description: 'La base del robot, que se monta en el suelo o en una pista lineal. Alberga el controlador principal y proporciona estabilidad a toda la estructura.',
             image: getImage('robotic-arm-base'),
             position: { top: '85%', left: '30%' },
-            learnMoreUrl: 'https://en.wikipedia.org/wiki/Industrial_robot'
+            learnMoreUrl: 'https://es.wikipedia.org/wiki/Robot_industrial'
         },
         {
             id: 'p6',
-            name: 'Axis 3 Joint',
-            description: 'A major rotational joint that allows the arm to pivot and extend its reach. It is driven by a high-torque servo motor with a harmonic drive gearbox for zero-backlash movement.',
+            name: 'Articulación del Eje 3',
+            description: 'Una importante articulación giratoria que permite que el brazo pivote y extienda su alcance. Es accionada por un servomotor de alto par con una caja de engranajes de accionamiento armónico para un movimiento sin juego.',
             image: getImage('robotic-arm-joint'),
             position: { top: '50%', left: '55%' },
-            learnMoreUrl: 'https://en.wikipedia.org/wiki/Harmonic_drive'
+            learnMoreUrl: 'https://es.wikipedia.org/wiki/Reductor_de_onda_de_deformaci%C3%B3n'
         },
         {
             id: 'p7',
-            name: 'End Effector (Gripper)',
-            description: 'The "hand" of the robot, which can be customized for specific tasks. This pneumatic gripper is designed for securely handling small to medium-sized components.',
+            name: 'Efector Final (Pinza)',
+            description: 'La "mano" del robot, que se puede personalizar para tareas específicas. Esta pinza neumática está diseñada para manipular de forma segura componentes de tamaño pequeño a mediano.',
             image: getImage('robotic-arm-gripper'),
             position: { top: '15%', left: '80%' },
-            learnMoreUrl: 'https://en.wikipedia.org/wiki/Robot_end_effector'
+            learnMoreUrl: 'https://es.wikipedia.org/wiki/Efector_final'
         }
     ]
   },
   {
     id: '3',
     slug: 'aero-drone',
-    name: 'Aero-4 Quadcopter',
-    description: 'A high-performance quadcopter drone designed for aerial photography and environmental monitoring.',
+    name: 'Cuadricóptero Aero-4',
+    description: 'Un dron cuadricóptero de alto rendimiento diseñado para fotografía aérea y monitoreo ambiental.',
     image: getImage('drone-robot'),
     parts: [
         {
             id: 'p8',
-            name: 'Brushless Motor & Propeller',
-            description: 'The propulsion system of the drone. The high-RPM brushless motor drives a carbon-fiber propeller to generate lift with high efficiency and low noise.',
+            name: 'Motor sin Escobillas y Hélice',
+            description: 'El sistema de propulsión del dron. El motor sin escobillas de altas RPM impulsa una hélice de fibra de carbono para generar sustentación con alta eficiencia y bajo ruido.',
             image: getImage('drone-propeller'),
             position: { top: '40%', left: '20%' },
-            learnMoreUrl: 'https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle'
+            learnMoreUrl: 'https://es.wikipedia.org/wiki/Veh%C3%ADculo_a%C3%A9reo_no_tripulado'
         },
         {
             id: 'p9',
-            name: 'Gimbaled Camera',
-            description: 'A 3-axis gimbal stabilizes the 4K camera, ensuring smooth video footage even during aggressive flight maneuvers. It is controlled by a dedicated image processor.',
+            name: 'Cámara con Gimbal',
+            description: 'Un gimbal de 3 ejes estabiliza la cámara 4K, asegurando imágenes de video fluidas incluso durante maniobras de vuelo agresivas. Es controlado por un procesador de imagen dedicado.',
             image: getImage('drone-camera'),
             position: { top: '75%', left: '50%' },
-            learnMoreUrl: 'https://en.wikipedia.org/wiki/Gimbal'
+            learnMoreUrl: 'https://es.wikipedia.org/wiki/Gimbal'
         }
     ]
   }

@@ -37,7 +37,7 @@ export default function PartDetailSheet({ part, open, onOpenChange }: PartDetail
       const result = await summarizeRobotPart({ partName: part.name, partDescription: part.description });
       setSummary(result.summary);
     } catch (e) {
-      setError('Failed to generate summary. Please try again.');
+      setError('No se pudo generar el resumen. Por favor, inténtalo de nuevo.');
       console.error(e);
     } finally {
       setIsLoading(false);
@@ -73,14 +73,14 @@ export default function PartDetailSheet({ part, open, onOpenChange }: PartDetail
             <Separator className="my-6" />
 
             <div className="space-y-4">
-              <h3 className="font-semibold text-lg">AI-Powered Summary</h3>
+              <h3 className="font-semibold text-lg">Resumen con IA</h3>
               <Button onClick={handleSummarize} disabled={isLoading} className="w-full">
                 {isLoading ? (
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                 ) : (
                   <Sparkles className="mr-2 h-4 w-4" />
                 )}
-                Summarize Function
+                Resumir Función
               </Button>
               {summary && (
                 <div className="p-4 bg-muted/50 rounded-lg border border-primary/20">
@@ -93,7 +93,7 @@ export default function PartDetailSheet({ part, open, onOpenChange }: PartDetail
             <SheetFooter className="mt-8">
                <Button asChild variant="outline" className="w-full">
                 <Link href={part.learnMoreUrl} target="_blank" rel="noopener noreferrer">
-                  Learn More
+                  Aprende Más
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>

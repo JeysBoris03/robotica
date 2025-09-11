@@ -2,73 +2,73 @@
   "placeholderImages": [
     {
       "id": "humanoid-robot",
-      "description": "A full view of an advanced humanoid robot standing.",
-      "imageUrl": "https://picsum.photos/seed/101/800/1200",
+      "description": "Una vista completa de un robot humanoide avanzado de pie.",
+      "imageUrl": "https://images.unsplash.com/photo-1518314916381-77a37c2a49ae?q=80&w=800&h=1200&auto=format&fit=crop",
       "imageHint": "humanoid robot"
     },
     {
       "id": "robotic-arm",
-      "description": "A multi-axis industrial robotic arm in a factory setting.",
-      "imageUrl": "https://picsum.photos/seed/102/800/1200",
+      "description": "Un brazo robótico industrial multieje en un entorno de fábrica.",
+      "imageUrl": "https://images.unsplash.com/photo-1567772232923-2395d97a9224?q=80&w=800&h=1200&auto=format&fit=crop",
       "imageHint": "robotic arm"
     },
     {
       "id": "drone-robot",
-      "description": "A quadcopter drone flying over a landscape.",
-      "imageUrl": "https://picsum.photos/seed/103/800/600",
+      "description": "Un dron cuadricóptero volando sobre un paisaje.",
+      "imageUrl": "https://images.unsplash.com/photo-1507582020474-9a35b76d77d9?q=80&w=800&h=600&auto=format&fit=crop",
       "imageHint": "drone"
     },
     {
       "id": "robot-head",
-      "description": "Close-up of a humanoid robot's head with sensors.",
+      "description": "Primer plano de la cabeza de un robot humanoide con sensores.",
       "imageUrl": "https://picsum.photos/seed/201/600/400",
       "imageHint": "robot head"
     },
     {
       "id": "robot-torso",
-      "description": "The central torso unit of a humanoid robot housing the power core.",
+      "description": "La unidad central del torso de un robot humanoide que alberga el núcleo de energía.",
       "imageUrl": "https://picsum.photos/seed/202/600/400",
       "imageHint": "robot body"
     },
     {
       "id": "robot-arm-part",
-      "description": "A single articulated arm of a humanoid robot.",
+      "description": "Un solo brazo articulado de un robot humanoide.",
       "imageUrl": "https://picsum.photos/seed/203/600/400",
       "imageHint": "robot arm"
     },
     {
       "id": "robot-leg-part",
-      "description": "A bipedal leg of a humanoid robot, showing joints and actuators.",
+      "description": "Una pierna bípeda de un robot humanoide, que muestra articulaciones y actuadores.",
       "imageUrl": "https://picsum.photos/seed/204/600/400",
       "imageHint": "robot leg"
     },
     {
       "id": "robotic-arm-base",
-      "description": "The stationary base of an industrial robotic arm.",
+      "description": "La base estacionaria de un brazo robótico industrial.",
       "imageUrl": "https://picsum.photos/seed/205/600/400",
       "imageHint": "machine base"
     },
     {
       "id": "robotic-arm-joint",
-      "description": "A rotational joint of an industrial robotic arm.",
+      "description": "Una articulación giratoria de un brazo robótico industrial.",
       "imageUrl": "https://picsum.photos/seed/206/600/400",
       "imageHint": "gears machine"
     },
     {
       "id": "robotic-arm-gripper",
-      "description": "The end-effector or gripper of a robotic arm.",
+      "description": "El efector final o pinza de un brazo robótico.",
       "imageUrl": "https://picsum.photos/seed/207/600/400",
       "imageHint": "robotic claw"
     },
     {
       "id": "drone-propeller",
-      "description": "Close up of a drone propeller and motor.",
+      "description": "Primer plano de una hélice y motor de dron.",
       "imageUrl": "https://picsum.photos/seed/208/600/400",
       "imageHint": "propeller drone"
     },
     {
       "id": "drone-camera",
-      "description": "The high-resolution camera gimbal mounted on a drone.",
+      "description": "El gimbal de la cámara de alta resolución montado en un dron.",
       "imageUrl": "https://picsum.photos/seed/209/600/400",
       "imageHint": "camera lens"
     }
