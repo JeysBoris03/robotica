@@ -1,3 +1,76 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "humanoid-robot",
+      "description": "A full view of an advanced humanoid robot standing.",
+      "imageUrl": "https://picsum.photos/seed/101/800/1200",
+      "imageHint": "humanoid robot"
+    },
+    {
+      "id": "robotic-arm",
+      "description": "A multi-axis industrial robotic arm in a factory setting.",
+      "imageUrl": "https://picsum.photos/seed/102/800/1200",
+      "imageHint": "robotic arm"
+    },
+    {
+      "id": "drone-robot",
+      "description": "A quadcopter drone flying over a landscape.",
+      "imageUrl": "https://picsum.photos/seed/103/800/600",
+      "imageHint": "drone"
+    },
+    {
+      "id": "robot-head",
+      "description": "Close-up of a humanoid robot's head with sensors.",
+      "imageUrl": "https://picsum.photos/seed/201/600/400",
+      "imageHint": "robot head"
+    },
+    {
+      "id": "robot-torso",
+      "description": "The central torso unit of a humanoid robot housing the power core.",
+      "imageUrl": "https://picsum.photos/seed/202/600/400",
+      "imageHint": "robot body"
+    },
+    {
+      "id": "robot-arm-part",
+      "description": "A single articulated arm of a humanoid robot.",
+      "imageUrl": "https://picsum.photos/seed/203/600/400",
+      "imageHint": "robot arm"
+    },
+    {
+      "id": "robot-leg-part",
+      "description": "A bipedal leg of a humanoid robot, showing joints and actuators.",
+      "imageUrl": "https://picsum.photos/seed/204/600/400",
+      "imageHint": "robot leg"
+    },
+    {
+      "id": "robotic-arm-base",
+      "description": "The stationary base of an industrial robotic arm.",
+      "imageUrl": "https://picsum.photos/seed/205/600/400",
+      "imageHint": "machine base"
+    },
+    {
+      "id": "robotic-arm-joint",
+      "description": "A rotational joint of an industrial robotic arm.",
+      "imageUrl": "https://picsum.photos/seed/206/600/400",
+      "imageHint": "gears machine"
+    },
+    {
+      "id": "robotic-arm-gripper",
+      "description": "The end-effector or gripper of a robotic arm.",
+      "imageUrl": "https://picsum.photos/seed/207/600/400",
+      "imageHint": "robotic claw"
+    },
+    {
+      "id": "drone-propeller",
+      "description": "Close up of a drone propeller and motor.",
+      "imageUrl": "https://picsum.photos/seed/208/600/400",
+      "imageHint": "propeller drone"
+    },
+    {
+      "id": "drone-camera",
+      "description": "The high-resolution camera gimbal mounted on a drone.",
+      "imageUrl": "https://picsum.photos/seed/209/600/400",
+      "imageHint": "camera lens"
+    }
+  ]
 }
